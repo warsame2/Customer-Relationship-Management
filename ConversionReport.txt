@@ -1,0 +1,179 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file CRMAPP1.csproj at March 07 2010, 12:44:06.
+
+=========================ERRORS===================
+ERROR: The following files were not migrated because they were not found in the project file or the associated 'BuildAction' is set to 'None'.
+You may need to exclude these files from the project after the conversion process in order to compile your web site: 
+File List == adminmodule\{7d42c3da-61f4-4719-9113-2630398cb3a8}.cs.
+
+=========================WARNINGS=================
+Warning: File D:\downloaded projects\CRMAPP1\..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalReportPluginLib.dll not found.
+Warning: If the base class of any of the code-behind classes declares page fields please add the 'CodeFileBaseClass' attribute in the corresponding Page.
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Web.Config: added a reference for assembly CrystalDecisions.Shared.
+Web.Config: added a reference for assembly CrystalDecisions.ReportSource.
+Web.Config: added a reference for assembly CrystalDecisions.CrystalReports.Engine.
+Web.Config: added a reference for assembly CrystalDecisions.Web.
+Removed attribute Codebehind from file Global.asax.
+Removed attribute AutoEventWireup from file Home.aspx.
+Removed attribute Codebehind from file Home.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file Home.aspx.cs (Line 23).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file Home.aspx.cs (Line 47).
+Warning: Access level of 'LinkButton4_Click' changed to 'protected' in file Home.aspx.cs (Line 57).
+Warning: Access level of 'Button2_Click' changed to 'protected' in file Home.aspx.cs (Line 62).
+Removed attribute AutoEventWireup from file Official Link.aspx.
+Removed attribute Codebehind from file Official Link.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file Official Link.aspx.cs (Line 20).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file Official Link.aspx.cs (Line 44).
+Warning: Access level of 'LinkButton2_Click' changed to 'protected' in file Official Link.aspx.cs (Line 49).
+Warning: Access level of 'LinkButton3_Click' changed to 'protected' in file Official Link.aspx.cs (Line 54).
+Removed attribute TargetSchema from file WebUserControl1.ascx.
+Removed attribute Codebehind from file WebUserControl1.ascx.
+Removed attribute AutoEventWireup from file WebUserControl1.ascx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file WebUserControl1.ascx.cs (Line 16).
+Warning: Access level of 'LinkButton3_Click' changed to 'protected' in file WebUserControl1.ascx.cs (Line 45).
+Warning: Access level of 'LinkButton2_Click' changed to 'protected' in file WebUserControl1.ascx.cs (Line 50).
+Removed attribute AutoEventWireup from file adminmodule\admincrystalreport.aspx.
+Removed attribute Codebehind from file adminmodule\admincrystalreport.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file adminmodule\AdminCrystalReport.aspx.cs (Line 22).
+Removed attribute AutoEventWireup from file adminmodule\adminmain.aspx.
+Removed attribute Codebehind from file adminmodule\adminmain.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file adminmodule\Adminmain.aspx.cs (Line 20).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file adminmodule\Adminmain.aspx.cs (Line 46).
+Warning: Access level of 'LinkButton2_Click' changed to 'protected' in file adminmodule\Adminmain.aspx.cs (Line 51).
+Warning: Access level of 'LinkButton3_Click' changed to 'protected' in file adminmodule\Adminmain.aspx.cs (Line 56).
+Removed attribute AutoEventWireup from file adminmodule\empdetails.aspx.
+Removed attribute Codebehind from file adminmodule\empdetails.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file adminmodule\Empdetails.aspx.cs (Line 33).
+Warning: Access level of 'DataGrid1_SelectedIndexChanged' changed to 'protected' in file adminmodule\Empdetails.aspx.cs (Line 196).
+Removed attribute AutoEventWireup from file adminmodule\invaliduidpwd.aspx.
+Removed attribute Codebehind from file adminmodule\invaliduidpwd.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file adminmodule\Invaliduidpwd.aspx.cs (Line 20).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file adminmodule\Invaliduidpwd.aspx.cs (Line 44).
+Removed attribute AutoEventWireup from file adminmodule\login.aspx.
+Removed attribute Codebehind from file adminmodule\login.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file adminmodule\Login.aspx.cs (Line 24).
+Warning: Access level of 'Button1_Click' changed to 'protected' in file adminmodule\Login.aspx.cs (Line 48).
+Removed attribute AutoEventWireup from file adminmodule\payrolldetails.aspx.
+Removed attribute Codebehind from file adminmodule\payrolldetails.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file adminmodule\PayRolldetails.aspx.cs (Line 44).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file adminmodule\PayRolldetails.aspx.cs (Line 78).
+Warning: Access level of 'DataGrid1_SelectedIndexChanged' changed to 'protected' in file adminmodule\PayRolldetails.aspx.cs (Line 83).
+Warning: Access level of 'DataGrid2_SelectedIndexChanged' changed to 'protected' in file adminmodule\PayRolldetails.aspx.cs (Line 227).
+Removed attribute AutoEventWireup from file customermodule\customain.aspx.
+Removed attribute Codebehind from file customermodule\customain.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file customermodule\CustoMain.aspx.cs (Line 20).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file customermodule\CustoMain.aspx.cs (Line 44).
+Removed attribute AutoEventWireup from file customermodule\custqueries.aspx.
+Removed attribute Codebehind from file customermodule\custqueries.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file customermodule\CustQueries.aspx.cs (Line 24).
+Warning: Access level of 'sendbtn_Click' changed to 'protected' in file customermodule\CustQueries.aspx.cs (Line 56).
+Warning: Access level of 'subtxt_TextChanged' changed to 'protected' in file customermodule\CustQueries.aspx.cs (Line 67).
+Removed attribute AutoEventWireup from file customermodule\custreg.aspx.
+Removed attribute Codebehind from file customermodule\custreg.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file customermodule\CustReg.aspx.cs (Line 25).
+Warning: Access level of 'registerbtn_Click' changed to 'protected' in file customermodule\CustReg.aspx.cs (Line 49).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file customermodule\CustReg.aspx.cs (Line 62).
+Removed attribute AutoEventWireup from file customermodule\invaliduidpwd.aspx.
+Removed attribute Codebehind from file customermodule\invaliduidpwd.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file customermodule\Invaliduidpwd.aspx.cs (Line 20).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file customermodule\Invaliduidpwd.aspx.cs (Line 44).
+Removed attribute AutoEventWireup from file employeemodule\custquery.aspx.
+Removed attribute Codebehind from file employeemodule\custquery.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file employeemodule\CustQuery.aspx.cs (Line 24).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file employeemodule\CustQuery.aspx.cs (Line 55).
+Warning: Access level of 'DataGrid1_SelectedIndexChanged' changed to 'protected' in file employeemodule\CustQuery.aspx.cs (Line 60).
+Removed attribute AutoEventWireup from file employeemodule\empcrystalrpt.aspx.
+Removed attribute Codebehind from file employeemodule\empcrystalrpt.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file employeemodule\EmpCrystalrpt.aspx.cs (Line 22).
+Removed attribute AutoEventWireup from file employeemodule\emplogin.aspx.
+Removed attribute Codebehind from file employeemodule\emplogin.aspx.
+'Reference' tag with reference to '~/adminmodule/login.aspx' added to file employeemodule\emplogin.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file employeemodule\EmpLogin.aspx.cs (Line 24).
+Warning: Access level of 'Button1_Click' changed to 'protected' in file employeemodule\EmpLogin.aspx.cs (Line 48).
+Warning: Access level of 'LinkButton4_Click' changed to 'protected' in file employeemodule\EmpLogin.aspx.cs (Line 71).
+Removed attribute AutoEventWireup from file employeemodule\empmain.aspx.
+Removed attribute Codebehind from file employeemodule\empmain.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file employeemodule\EmpMain.aspx.cs (Line 20).
+Warning: Access level of 'LinkButton2_Click' changed to 'protected' in file employeemodule\EmpMain.aspx.cs (Line 44).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file employeemodule\EmpMain.aspx.cs (Line 49).
+Warning: Access level of 'LinkButton3_Click' changed to 'protected' in file employeemodule\EmpMain.aspx.cs (Line 54).
+Removed attribute AutoEventWireup from file employeemodule\emppayroll.aspx.
+Removed attribute Codebehind from file employeemodule\emppayroll.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file employeemodule\EmpPayRoll.aspx.cs (Line 21).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file employeemodule\EmpPayRoll.aspx.cs (Line 45).
+Warning: Access level of 'Button1_Click' changed to 'protected' in file employeemodule\EmpPayRoll.aspx.cs (Line 50).
+Removed attribute AutoEventWireup from file employeemodule\emppdetail.aspx.
+Removed attribute Codebehind from file employeemodule\emppdetail.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file employeemodule\EmpPDetail.aspx.cs (Line 21).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file employeemodule\EmpPDetail.aspx.cs (Line 45).
+Warning: Access level of 'Button1_Click' changed to 'protected' in file employeemodule\EmpPDetail.aspx.cs (Line 50).
+Warning: Access level of 'DataGrid1_SelectedIndexChanged' changed to 'protected' in file employeemodule\EmpPDetail.aspx.cs (Line 61).
+Removed attribute AutoEventWireup from file employeemodule\empreg.aspx.
+Removed attribute Codebehind from file employeemodule\empreg.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file employeemodule\EmpReg.aspx.cs (Line 27).
+Warning: Access level of 'Button1_Click' changed to 'protected' in file employeemodule\EmpReg.aspx.cs (Line 59).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file employeemodule\EmpReg.aspx.cs (Line 85).
+Warning: Access level of 'DropDownList1_SelectedIndexChanged' changed to 'protected' in file employeemodule\EmpReg.aspx.cs (Line 90).
+Removed attribute AutoEventWireup from file employeemodule\invaliduidpwd.aspx.
+Removed attribute Codebehind from file employeemodule\invaliduidpwd.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file employeemodule\Invaliduidpwd.aspx.cs (Line 20).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file employeemodule\Invaliduidpwd.aspx.cs (Line 44).
+Removed attribute AutoEventWireup from file employeemodule\viewquery.aspx.
+Removed attribute Codebehind from file employeemodule\viewquery.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file employeemodule\ViewQuery.aspx.cs (Line 21).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file employeemodule\ViewQuery.aspx.cs (Line 49).
+Warning: Access level of 'DataGrid1_SelectedIndexChanged' changed to 'protected' in file employeemodule\ViewQuery.aspx.cs (Line 54).
+Removed attribute AutoEventWireup from file operationmgrmodule\invaliduidpwd.aspx.
+Removed attribute Codebehind from file operationmgrmodule\invaliduidpwd.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file operationmgrmodule\Invaliduidpwd.aspx.cs (Line 20).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file operationmgrmodule\Invaliduidpwd.aspx.cs (Line 44).
+Removed attribute AutoEventWireup from file operationmgrmodule\login.aspx.
+Removed attribute Codebehind from file operationmgrmodule\login.aspx.
+'Reference' tag with reference to '~/adminmodule/login.aspx' added to file operationmgrmodule\login.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file operationmgrmodule\Login.aspx.cs (Line 23).
+Warning: Access level of 'Button1_Click' changed to 'protected' in file operationmgrmodule\Login.aspx.cs (Line 47).
+Warning: Access level of 'TextBox1_TextChanged' changed to 'protected' in file operationmgrmodule\Login.aspx.cs (Line 71).
+Removed attribute AutoEventWireup from file operationmgrmodule\opemgrcrystalrpt.aspx.
+Removed attribute Codebehind from file operationmgrmodule\opemgrcrystalrpt.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file operationmgrmodule\OpemgrCrystalrpt.aspx.cs (Line 22).
+Removed attribute AutoEventWireup from file operationmgrmodule\operationmgrmain.aspx.
+Removed attribute Codebehind from file operationmgrmodule\operationmgrmain.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file operationmgrmodule\OperationMGRMain.aspx.cs (Line 20).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file operationmgrmodule\OperationMGRMain.aspx.cs (Line 44).
+Warning: Access level of 'LinkButton2_Click' changed to 'protected' in file operationmgrmodule\OperationMGRMain.aspx.cs (Line 49).
+Warning: Access level of 'LinkButton3_Click' changed to 'protected' in file operationmgrmodule\OperationMGRMain.aspx.cs (Line 54).
+Removed attribute AutoEventWireup from file operationmgrmodule\operationmgrquery.aspx.
+Removed attribute Codebehind from file operationmgrmodule\operationmgrquery.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file operationmgrmodule\operationMGRQuery.aspx.cs (Line 25).
+Warning: Access level of 'sendbtn_Click' changed to 'protected' in file operationmgrmodule\operationMGRQuery.aspx.cs (Line 49).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file operationmgrmodule\operationMGRQuery.aspx.cs (Line 61).
+Removed attribute AutoEventWireup from file operationmgrmodule\scheme.aspx.
+Removed attribute Codebehind from file operationmgrmodule\scheme.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file operationmgrmodule\Scheme.aspx.cs (Line 34).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file operationmgrmodule\Scheme.aspx.cs (Line 148).
+Warning: Access level of 'DataGrid1_SelectedIndexChanged' changed to 'protected' in file operationmgrmodule\Scheme.aspx.cs (Line 153).
+Removed attribute AutoEventWireup from file operationmgrmodule\viewquery.aspx.
+Removed attribute Codebehind from file operationmgrmodule\viewquery.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file operationmgrmodule\ViewQuery.aspx.cs (Line 23).
+Warning: Access level of 'DataGrid1_SelectedIndexChanged' changed to 'protected' in file operationmgrmodule\ViewQuery.aspx.cs (Line 52).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file operationmgrmodule\ViewQuery.aspx.cs (Line 57).
+Added folder App_Code.
+Moved file Global.asax.cs to the App_Code\ directory.
+Added folder App_Code\EmployeeModule.
+Moved file employeemodule\crystalreport2.cs to the App_Code\EmployeeModule\ directory.
+Added folder App_Code\AdminModule.
+Moved file adminmodule\crystalreport1.cs to the App_Code\AdminModule\ directory.
+Moved file AssemblyInfo.cs to the App_Code\ directory.
+Added folder App_Code\OperationMGRModule.
+Moved file operationmgrmodule\crystalreport3.cs to the App_Code\OperationMGRModule\ directory.
+Changed HTML validation schema for all projects to 'Internet Explorer 6.0'.
+Removed file Bin\CRMAPP1.pdb.
+Removed file CRMAPP1.csproj.
+Removed file CRMAPP1.csproj.webinfo.
+Project CRMAPP1.csproj has been converted successfully at March 07 2010, 12:44:14.

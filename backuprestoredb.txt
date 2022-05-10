@@ -1,0 +1,2 @@
+backup database crm to disk='d:\crm.bak'
+restore database crm from disk='d:\crm.bak'

@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CRMAPP1", "http://localhost/CRMAPP1/CRMAPP1.csproj", "{19775451-E32C-4F76-8407-A722AED35AE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19775451-E32C-4F76-8407-A722AED35AE2}.Debug|Default.ActiveCfg = Debug|.NET
+		{19775451-E32C-4F76-8407-A722AED35AE2}.Debug|Default.Build.0 = Debug|.NET
+		{19775451-E32C-4F76-8407-A722AED35AE2}.Release|Default.ActiveCfg = Release|.NET
+		{19775451-E32C-4F76-8407-A722AED35AE2}.Release|Default.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CRMAPP1">
+</Property><Property Name="Solution File" Value="D:\downloaded projects\CRMAPP1\CRMAPP1.sln">
+</Property><Property Name="User Options File" Value="D:\downloaded projects\CRMAPP1\CRMAPP1.suo">
+</Property><Property Name="Date" Value="Sunday, March 07, 2010">
+</Property><Property Name="Time" Value="12:45 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CRMAPP1.sln" Description="File successfully backed up as C:\Documents and Settings\ipog\Desktop\Backup\CRMAPP1.sln">
+</Event><Event ErrorLevel="0" Project="" Source="CRMAPP1.suo" Description="File successfully backed up as C:\Documents and Settings\ipog\Desktop\Backup\CRMAPP1.suo">
+</Event><Event ErrorLevel="1" Project="CRMAPP1" Source="http://localhost/CRMAPP1/CRMAPP1.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="http://localhost/CRMAPP1/" Source="http://localhost/CRMAPP1/" Description="ERROR: Failed to backup website http://localhost/CRMAPP1/">
+</Event><Event ErrorLevel="0" Project="" Source="CRMAPP1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CRMAPP1.sln" Description="Converted">
+</Event></UpgradeLog>
